@@ -5,22 +5,16 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      colors: { ...colors },
+      backgroundImage: {
+        'btn-1':
+          'url("https://static.wixstatic.com/media/a3c153_b61b624117074ddc925cfccaabf87368~mv2.png/v1/fill/w_1920,h_1080,al_c/a3c153_b61b624117074ddc925cfccaabf87368~mv2.png?formatterValues=a3c153_b61b624117074ddc925cfccaabf87368~mv2.png,1920,1080")',
+      },
+      colors: { ...colors, body: 'rgb(13,33,48)' },
       height: {
-        'px-800': '800px',
-        'px-500': '500px',
-        'px-5': '5px',
+        inherit: 'inherit',
       },
       width: {
-        'px-800': '800px',
-        'px-500': '500px',
-        'px-5': '5px',
-      },
-      inset: {
-        'px-1': '1px',
-      },
-      borderWidth: {
-        'px-1': '1px',
+        inherit: 'inherit',
       },
     },
   },

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { BiUpArrow } from 'react-icons/bi';
 
 export const MainLayout = ({ children }) => {
   // State
@@ -15,7 +16,7 @@ export const MainLayout = ({ children }) => {
   }, []);
 
   return (
-    <div className='w-full relative bg-black'>
+    <div className='w-full min-h-screen relative bg-body'>
       {scrollBtn && (
         <button
           type='button'
