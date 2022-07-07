@@ -9,7 +9,7 @@ export default function Home() {
     <MainLayout>
       <div className='relative'>
         <Image
-          src='https://static.wixstatic.com/media/e35fe6_e5e18a07ac9f41a6b11987628aa1c168~mv2.jpeg/v1/fill/w_1280,h_400,al_c,q_85,enc_auto/wgban.jpeg'
+          src='/assets/main/jpg/banner-1.jpg'
           alt='banner-1'
           layout='responsive'
           height={300}

@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'btn-1':
-          'url("https://static.wixstatic.com/media/a3c153_b61b624117074ddc925cfccaabf87368~mv2.png/v1/fill/w_1920,h_1080,al_c/a3c153_b61b624117074ddc925cfccaabf87368~mv2.png?formatterValues=a3c153_b61b624117074ddc925cfccaabf87368~mv2.png,1920,1080")',
+        'btn-1': 'url("/assets/main/png/btn-1.png")',
       },
       colors: { ...colors, body: 'rgb(13,33,48)' },
       height: {
