@@ -20,31 +20,45 @@ export default function Home() {
         <Layout.Section className='pt-2 md:pt-10'>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-10'>
             <div className='w-full h-10 md:h-14 bg-teal-400'>
-              <button type='button' className='w-full h-full bg-btn-1 bg-contain text-black'>
-                加入我們
-              </button>
+              <Link href='https://www.wg-88.vip/?pid=zbnin989'>
+                <a>
+                  <div className='w-full h-full bg-btn-1 bg-contain text-black flex justify-center items-center'>
+                    加入我們
+                  </div>
+                </a>
+              </Link>
             </div>
             <div className='w-full h-10 md:h-14 bg-yellow-700 rounded-md'>
-              <button type='button' className='w-full h-full'>
-                申請優惠
-              </button>
+              <Link href='https://www.wg-88.vip/?pid=zbnin989'>
+                <a>
+                  <div className='w-full h-full flex justify-center items-center'>申請優惠 🙂</div>
+                </a>
+              </Link>
             </div>
             <div className='w-full h-10 md:h-14 bg-orange-200 rounded-md'>
-              <button type='button' className='w-full h-full text-orange-500'>
-                加入我們
-              </button>
+              <Link href='https://t.me/kalok990'>
+                <a>
+                  <div className='w-full h-full text-orange-500 flex justify-center items-center'>
+                    加入我們 💬
+                  </div>
+                </a>
+              </Link>
             </div>
             <div className='w-full h-10 md:h-14 bg-green-700 rounded-full'>
-              <button type='button' className='w-full h-full text-black'>
-                加入我們
-              </button>
+              <Link href='https://www.hkhk22.com/web/home-page'>
+                <a>
+                  <div className='w-full h-full text-black flex justify-center items-center'>
+                    加入我們
+                  </div>
+                </a>
+              </Link>
             </div>
           </div>
         </Layout.Section>
         <Layout.Section>
           <div className='w-full h-[500px] relative'>
             <iframe
-              src='https://www.youtube.com/embed/CI4Q3mtA0tc?controls=0'
+              src='https://video.wixstatic.com/video/e35fe6_b12dd32897f84ca9b5ceb552191df947/1080p/mp4/file.mp4?controls=0'
               title='YouTube video player'
               frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;'
@@ -55,9 +69,9 @@ export default function Home() {
             />
           </div>
           <div className='flex justify-center'>
-            <Link href='/'>
+            <Link href='https://www.wg-88.vip/?pid=rhfsh110'>
               <a className='px-20 py-5 border-2 border-amber-600 text-amber-600 rounded-full'>
-                遊戲
+                遊戲 ⬇️
               </a>
             </Link>
           </div>
